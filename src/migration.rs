@@ -22,7 +22,7 @@ use codec::{Decode, Encode, EncodeLike, MaxEncodedLen};
 use frame_support::{pallet_prelude::*, storage_alias, traits::OnRuntimeUpgrade};
 use log;
 
-#[cfg(feature = "try-runtime")]
+// #[cfg(feature = "try-runtime")]
 // use sp_runtime::TryRuntimeError;
 
 /// Initial version of storage types.
